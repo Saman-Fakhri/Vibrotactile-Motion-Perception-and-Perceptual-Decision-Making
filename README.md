@@ -31,3 +31,11 @@ Because the original trial-level dataset is missing, this repository should be i
 
 ## Key Interpretation
 Two-hand conditions generally showed higher accuracy than one-hand conditions across phase differences, while response bias differences were smaller and varied across participants.
+
+## Figures
+
+### Accuracy Across Phase Differences
+![Accuracy barplot](figures/accuracy_barplot.png)
+
+### One-hand vs Two-hand Response Bias
+![Bias scatterplot](figures/bias_scatterplot.png)
