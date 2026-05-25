@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Undergraduate cognitive neuroscience research project investigating human tactile perception and perceptual decision-making using vibration-based stimuli delivered to the fingertips.
+Cognitive neuroscience research project investigating human tactile perception and perceptual decision-making using vibration-based stimuli delivered to the fingertips.
 
 The study examined how hand configuration influences vibrotactile motion perception by comparing one-hand and two-hand stimulation conditions across phase differences of 30°, 60°, and 90° using a two-alternative forced-choice (2-AFC) behavioural paradigm.
 
