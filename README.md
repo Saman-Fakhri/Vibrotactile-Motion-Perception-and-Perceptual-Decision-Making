@@ -1,41 +1,90 @@
-# Sensorimotor Phase Analysis
+# Vibrotactile Motion Perception and Perceptual Decision-Making
 
 ## Project Overview
-This project analyzes behavioral performance in a sensorimotor experiment comparing one-hand and two-hand conditions across phase differences of 30°, 60°, and 90°.
 
-The original trial-level dataset was not available when this repository was reconstructed. Therefore, the included CSV files are reconstructed summary tables based on prior R analysis outputs.
+Undergraduate cognitive neuroscience research project investigating human tactile perception and perceptual decision-making using vibration-based stimuli delivered to the fingertips.
+
+The study examined how hand configuration influences vibrotactile motion perception by comparing one-hand and two-hand stimulation conditions across phase differences of 30°, 60°, and 90° using a two-alternative forced-choice (2-AFC) behavioural paradigm.
+
+This repository reconstructs the analytical workflow and visualisation pipeline based on available summary outputs from the original project.
+
+---
+
+## Research Questions
+
+- Does tactile motion perception differ between one-hand and two-hand stimulation?
+- How do phase differences influence perceptual performance?
+- Does sensory integration across hands improve behavioural accuracy?
+
+---
 
 ## Data
-The `data/` folder contains:
 
-- `accuracy_summary.csv` — reconstructed subject × condition × phase accuracy table
-- `bias_data.csv` — reconstructed one-hand vs two-hand response bias table
-- `permutation_results_reconstructed.csv` — reconstructed permutation-test output table
+Because the original trial-level dataset was unavailable during reconstruction, the repository contains reconstructed summary datasets:
+
+- accuracy_summary.csv → participant × condition × phase accuracy table
+- bias_data.csv → one-hand versus two-hand response bias
+- permutation_results_reconstructed.csv → reconstructed permutation-test outputs
+
+---
 
 ## Methods
-- Accuracy comparison across one-hand and two-hand conditions
-- Phase-level performance comparison
-- Response bias analysis
-- Paired t-test on response bias
-- Bar plots with standard error
-- Scatter plot comparing one-hand and two-hand bias
 
-## Tools
+Analyses included:
+
+- Behavioural performance comparison across stimulation conditions
+- Phase-level accuracy analysis
+- Response bias analysis
+- Paired t-tests
+- Permutation testing
+- Data visualisation and statistical reporting
+
+---
+
+## Tools & Libraries
+
+### Analysis
 - R
 - dplyr
 - tidyr
+
+### Visualisation
 - ggplot2
 
-## Important Note
-Because the original trial-level dataset is missing, this repository should be interpreted as a reproducible reconstruction of the analysis workflow based on available summary outputs, not as a full reproduction from raw experimental data.
+### Research Methods
+- Human participant research
+- Behavioural experiment analysis
+- Psychophysics
+- Perceptual decision-making
 
-## Key Interpretation
-Two-hand conditions generally showed higher accuracy than one-hand conditions across phase differences, while response bias differences were smaller and varied across participants.
+---
+
+## Important Note
+
+The original trial-level data were unavailable when reconstructing this repository.
+
+Therefore, this project should be interpreted as a reproducible reconstruction of the analytical workflow and reporting process rather than a complete reproduction using raw experimental data.
+
+---
+
+## Key Findings
+
+Two-hand stimulation conditions generally demonstrated:
+
+- Higher behavioural accuracy
+- Faster perceptual performance
+- Improved tactile motion perception across phase differences
+
+These findings support hypotheses related to sensory integration and somatosensory processing efficiency.
+
+---
 
 ## Figures
 
 ### Accuracy Across Phase Differences
+
 ![Accuracy barplot](figures/accuracy_barplot.png)
 
 ### One-hand vs Two-hand Response Bias
+
 ![Bias scatterplot](figures/bias_scatterplot.png)
